@@ -12,11 +12,10 @@ public class Main {
             System.out.println("i = " + i);
             String firstName = "Ivan";
             String middleName = "Ivanov";
-            String lastName = "ivanovich";
-            String fullName = "Ivanov Ivan Ivanovich";
+            String lastName = "Ivanovich";
+            String fullName = middleName + firstName + lastName;
             System.out.println("Ф.И.О сотрудника = " + fullName);
 
-            String fullName1 = "Ivanov Ivan Ivanovich";
             String small = "Ivanov Ivan Ivanovich";
             System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета = " + small.toUpperCase());
 
